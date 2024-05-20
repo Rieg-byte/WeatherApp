@@ -8,7 +8,6 @@ import android.content.pm.PackageManager
 import android.location.Address
 import android.location.Geocoder
 import android.location.LocationManager
-import android.util.Log
 import androidx.core.content.ContextCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.rieg.weatherapp.data.models.LocationCoordinateDTO
@@ -42,7 +41,6 @@ class LocationTrackerImpl @Inject constructor(
     override suspend fun getNameLocation(locationCoordinateDTO: LocationCoordinateDTO): String{
         var addressString = ""
         val addressList: MutableList<Address>? = geocoder.getFromLocation(locationCoordinateDTO.latitude, locationCoordinateDTO.longitude, 1)
-        Log.d("Addresses", addressList?.get(0).toString())
         if (!addressList.isNullOrEmpty()) {
             val address = addressList[0]
             addressString = address.locality ?: address.countryName
