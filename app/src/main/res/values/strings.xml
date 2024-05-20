@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="error">Ошибка</string>
+    <string name="refresh">Повторить</string>
+    <string name="week_weather">Погода на неделю</string>
+    <string name="clear_sky">Ясно</string>
+    <string name="mainly_clear">Преимущественно ясно</string>
+    <string name="partly_cloudy">Переменная облачность</string>
+    <string name="overcast">Пасмурно</string>
+    <string name="fog">Туман</string>
+    <string name="depositing_rime_fog">Изморозь</string>
+    <string name="drizzle_light">Легкая морось</string>
+    <string name="drizzle_moderate">Умеренная морось</string>
+    <string name="drizzle_dense_intensity">Сильная морось</string>
+    <string name="freezing_drizzle_light">Легкая ледяная морось</string>
+    <string name="freezing_drizzle_dense_intensity">Сильная ледяная морось</string>
+    <string name="rain_slight">Слабый дождь</string>
+    <string name="rain_moderate">Умеренный дождь</string>
+    <string name="rain_heavy">Сильный дождь</string>
+    <string name="freezing_rain_light">Слабый ледяной дождь</string>
+    <string name="freezing_rain_heavy">Сильный ледяной дождь</string>
+    <string name="snowfall_slight">Слабый снег</string>
+    <string name="snowfall_moderate">Умеренный снег</string>
+    <string name="snowfall_heavy">Сильный снег</string>
+    <string name="snow_grains">Снежные зёрна</string>
+    <string name="rain_showers_slight">Слабый ливень</string>
+    <string name="rain_showers_moderate">Умеренный ливень</string>
+    <string name="rain_showers_violent">Сильный ливень</string>
+    <string name="snow_showers_slight">Слабый снегопад</string>
+    <string name="snow_showers_heavy">Сильный снегопад</string>
+    <string name="thunderstorm">Гроза</string>
+    <string name="thunderstorm_slight_hail">Слабая гроза с градом</string>
+    <string name="thunderstorm_heavy_hail">Сильная гроза с градом</string>
+    <string name="unknown_type_weather">Неизвестный тип погоды</string>
+</resources>
